@@ -13,4 +13,4 @@ router.post("/signup", register);
 router.post("/login", emailCheck, login);
 
 router.post("/:id/history", userIdCheck, historyAccount);
-router.get("/users", findAllusers);
+

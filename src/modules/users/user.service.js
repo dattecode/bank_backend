@@ -18,9 +18,6 @@ export class UserSevice {
   static async create(data) {
     return await UserModel.create(data);
   }
-  static async findAllusers() {
-    return await UserModel.findAll();
-  }
   static async updateAmount(user, amount){
     return await user.update(amount)
   }
